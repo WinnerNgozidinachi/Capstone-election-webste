@@ -65,7 +65,7 @@ function saveAndNavigateGetStarted() {
 
     localStorage.setItem("password", password);
 
-    window.location.href = "page.html";
+    window.location.href = "page1.html";
 }
 
 
