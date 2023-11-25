@@ -443,3 +443,165 @@ border-radius: 10px;
 .signout{
     color: red;
 }
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.upcoming{
+    background-color: #02732A0D;
+    width: 500px;
+    height: 131px;
+    top: 926px;
+    left: 281px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.info{
+    color: #02732A;
+    font-family: Public Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.state{
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.date{
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: -5px;
+}
+.past{
+    background-color: #02732A0D;
+    width: 500px;
+    height: 131px;
+    top: 926px;
+    left: 281px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .steps{
+        background-color: #02732A;
+        max-width: 100vw;
+        margin-right: 2px;
+        border: none;
+    }
+    .nigeria{
+        display: none;
+    }
+    #page1{
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        margin-top: 215px;
+        border-radius: 50px, 50px, 0px, 0px;
+        border: none;
+    }
+    #page4{
+        background-color: white;
+        width: 100%;
+        height: 300px;
+        margin-top: 215px;
+        border-radius: 50px, 50px, 0px, 0px;
+        border: none;
+        justify-content: last baseline;
+    }
+    #signin{
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        margin-top: 215px;
+        border-radius: 50px, 50px, 0px, 0px;
+        border: none;
+    }
+    .Sign{
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .step{
+        display: none;
+    }
+    h1{
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+width: 300px;
+height: 36px;
+top: 265px;
+margin-left: 20px;
+
+    }
+.avatar-link{
+    width: 350px;
+height: 110px;
+top: 371px;
+left: 20px;
+border: 1px;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 5px;
+padding: 2px;
+}
+.avatar {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.name{
+    margin-left: 20px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.input-container input {
+    border: 1px solid lightblue;
+    width: 270px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.Terms{
+font-size: 10px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 20px;
+}
+#nextButton{
+    width: 290px;
+    height: Hug (52px);
+    left: 20px;
+    padding: 21px, 58px, 21px, 58px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.sign{
+    width: Fixed (296px);
+height: Hug (51px);
+top: 783px;
+left: 47px;
+padding: 21px, 58px, 21px, 58px;
+border-radius: 50px;
+gap: 10px;
+
+}
+    }
